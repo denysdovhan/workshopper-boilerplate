@@ -1,0 +1,43 @@
+{
+  "preferGlobal": true,
+  "name": "learnyousmth",
+  "version": "0.0.0",
+  "description": "Learn something with fun!",
+  "bin": {
+    "learnyousmth": "./bin/learnyousmth"
+  },
+  "scripts": {
+    "test": "eslint . && workshopper-adventure-test",
+    "postpublish": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourname/learnyousmth.git"
+  },
+  "keywords": [
+    "nodeschool",
+    "workshopper",
+    "tutorial",
+    "something"
+  ],
+  "author": "Your Name <email@yourname.com> (http://yourname.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourname/learnyousmth/issues"
+  },
+  "homepage": "https://github.com/yourname/learnyousmth#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "diff": "^3.2.0",
+    "workshopper-adventure": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "workshopper-adventure-test": "^1.1.0"
+  }
+}
