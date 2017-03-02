@@ -1,14 +1,20 @@
 /* eslint-disable */
 
-require('colors');
+const chalk = require('chalk');
 const diff = require('diff');
 
+/**
+ * Make a colorful diff between attempt and solution
+ * @param  {String} attempt
+ * @param  {String} solution
+ * @return {String}
+ */
 module.exports = (attempt, solution) => {
   // Compare solution and attempt results
   const parts = diff.diffWordsWithSpace(attempt, solution);
   // return diff
   return parts.map(part =>
-    part.added   ? part.value.red.inverse :
-    part.removed ? part.value.green.inverse : part.value
+    part.added   ? chalk.inverse.green(part.value) :
+    part.removed ? chalk.inverse.red(part.value) : part.value
   ).join('');
 };
