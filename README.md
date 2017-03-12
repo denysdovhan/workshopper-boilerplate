@@ -8,14 +8,14 @@ I've built three workshoppers for NodeSchool:
 * [**learnyouhtml**](https://github.com/denysdovhan/learnyouhtml)
 * [**how-to-markdown**](https://github.com/workshopper/how-to-markdown)
 
-Unfortunately, there's no documentation for [workshopper-adventure](https://github.com/workshopper/workshopper-adventure) framework. [Martin Heidegger](https://github.com/martinheidegger) gladly [helped me to build a good scaffolds](https://github.com/denysdovhan/learnyoubash/pull/1) for **learnyoubash** workshopper and I use the same structure for each of my workshoppers.
+Unfortunately, there's no documentation for the [workshopper-adventure](https://github.com/workshopper/workshopper-adventure) framework. [Martin Heidegger](https://github.com/martinheidegger) gladly [helped me build a good scaffold](https://github.com/denysdovhan/learnyoubash/pull/1) for the **learnyoubash** workshopper and I use the same structure for each of my workshoppers.
 
-This boilerplate has few advantages:
+This boilerplate has a few advantages:
 
 * Simple and unified structure
 * Ready for localization
-* Easy to create custom footer
-* Easy to create custom messages for solutions
+* Easy to create a custom footer
+* Easy to create a custom messages for solutions
 * Tests for exercises
 * Linting of workshopper sources
 * README with nice badges
@@ -47,7 +47,7 @@ It's easy to setup your workshopper. Just go through these simple steps:
 1. Clean-up `README.md`
 1. Profit!
 
-Take a look at my other workshoppers, if you need more examples.
+Take a look at my other workshoppers if you need more examples.
 
 ## Workshopper structure
 
@@ -108,7 +108,7 @@ MIT © [Denys Dovhan](http://denysdovhan.com)
 
 > Learn something with fun!
 
-Here is a simple boilerplate.
+This is a simple boilerplate.
 
 ## Exercises
 
